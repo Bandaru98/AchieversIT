@@ -10,22 +10,22 @@ async function fetchData() {
 
     let table = document.createElement('table');
     table.innerHTML = `
-        <tr>
-            <th>Id</th>
-            <th>Title</th>
-            <th>Category</th>
-            <th>Price</th>
-        </tr>
-    `;
+                <tr>
+                    <th>Id</th>
+                    <th>Title</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                </tr>
+            `;
 
     data.products.forEach((item) => {
         let row = document.createElement('tr');
         row.innerHTML = `
-            <td>${item.id}</td>
-            <td>${item.title}</td>
-            <td>${item.category}</td>
-            <td>${item.price}</td>
-        `;
+                    <td>${item.id}</td>
+                    <td>${item.title}</td>
+                    <td>${item.category}</td>
+                    <td>${item.price}</td>
+                `;
         table.appendChild(row);
     });
 
