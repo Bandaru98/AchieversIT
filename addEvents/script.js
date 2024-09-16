@@ -77,7 +77,6 @@ function showAddModal() {
     };
 }
 
-
 document.getElementById('btn-primary').onclick = function () {
     const modal = document.getElementById('addModal');
     modal.style.display = 'block';
