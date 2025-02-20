@@ -33,6 +33,7 @@ function displayEvents() {
     });
 }
 
+
 // Show modal for adding new events
 function showAddModal() {
     const modal = document.getElementById('addModal');
